@@ -1,0 +1,2 @@
+export const SET_PREGUNTAS = "SET_PREGUNTAS";
+export const SET_PREGUNTA = "SET_PREGUNTA";

@@ -1,0 +1,40 @@
+// tipos de letra
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Nunito:wght@600&family=Roboto:wght@100&display=swap');
+
+$ff-1: 'Bebas Neue', cursive;
+$ff-2: 'Nunito', sans-serif;
+$ff-3: 'Nunito', sans-serif;
+
+// paleta de colores
+
+$color-1: #b8de6f;
+$color-2: #01c5c4;
+$color-3: #f39233;
+$color-4: #f1e189;
+$color-5: #555555;
+
+// breackpoints
+$small: '600px';
+$medium: '960px';
+$large: '1264px';
+$extra-large: '1904p';
+
+@mixin desde ($size) {
+  @media screen and (min-width: $size) {
+    @content;
+  }
+}
+
+@mixin hasta ($size) {
+  @media screen and (max-width: $size) {
+    @content;
+  }
+}
+
+@mixin desde_hasta ($desde, $hasta) {
+  @media screen and (min-width: $desde) and (max-width: $hasta){
+    @content;
+  }
+}
+
+

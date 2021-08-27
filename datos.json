@@ -1,0 +1,22 @@
+[
+  {
+    "id": 1,
+    "nombre": "Numero de Páginas",
+    "orden": 0
+  },
+  {
+    "id": 2,
+    "name": "Tipo de Diseño",
+    "orden": 1
+  },
+  {
+    "id": 3,
+    "name": "Gestion de usuarios",
+    "orden": 2
+  },
+  {
+    "id": 3,
+    "name": "Dominio y Servidor",
+    "orden": 3
+  }
+]

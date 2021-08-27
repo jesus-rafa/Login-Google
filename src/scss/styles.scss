@@ -1,0 +1,13 @@
+// importamos foundation
+@import "foundation";
+// archivos de configuracion
+@import "config";
+
+.title {
+  text-align: center;
+  margin: 1em;
+  font-size: 24px;
+  font-family: $ff-2;
+  font-weight: bold;
+  color: $color-3;
+}
